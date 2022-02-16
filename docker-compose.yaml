@@ -1,11 +1,11 @@
 version: '3'
 services:
   frontend:
-    image: mern-frontend:1.0
+    image: samar080301/mern-frontend:1.0
     ports:
       - 3000:3000
   backend:  
-    image: mern-backend:1.0
+    image: samar080301/mern-backend:1.0
     ports:
       - 5000:5000
   mongodb:
