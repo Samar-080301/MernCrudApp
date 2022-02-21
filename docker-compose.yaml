@@ -13,4 +13,4 @@ services:
     ports:
       - 27017:27017
     environment:  
-      - ENV MONGO_URI: 'mongodb://localhost:27017/db_test'
+        MONGO_URI: mongodb://localhost:27017/db_test
