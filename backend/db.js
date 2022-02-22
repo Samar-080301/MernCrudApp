@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 // Allow Promises
 mongoose.Promise = global.Promise;
 // Connection
-mongoose.connect('mongodb://mongodb:27017/db_test', { useNewUrlParser: true });
+mongoose.connect('mongodb://merncrudapp_mongodb_1:27017/db_test', { useNewUrlParser: true });
 // Validation
 mongoose.connection
   .once('open', () => console.log('Connected to the database!'))
